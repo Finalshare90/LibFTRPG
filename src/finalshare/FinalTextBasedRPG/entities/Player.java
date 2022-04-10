@@ -3,7 +3,6 @@ package finalshare.FinalTextBasedRPG.entities;
 public class Player{
 
 	/**
-	  also, remember to put your name here if you change anything in the code:)
 	  @author MrFinalshare
 	**/
 	

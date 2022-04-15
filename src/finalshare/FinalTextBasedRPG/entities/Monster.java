@@ -16,7 +16,7 @@ public class Monster {
 	strenght will change automaticly when 
 	Xp hits level * necessaryXp.
 	*/
-	Monster(String name, int hp,int xp){
+	public Monster(String name, int hp,int xp){
 		this.hp = hp;
 		this.name = name;
 		this.xp = xp;

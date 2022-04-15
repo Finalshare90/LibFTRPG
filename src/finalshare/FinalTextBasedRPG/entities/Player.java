@@ -28,7 +28,7 @@ public class Player{
 	*/
 	private int coins = 0;
 	
-	Player(String name, int hp){
+	public Player(String name, int hp){
 		this.name = name;
 		this.hp = hp;
 	}

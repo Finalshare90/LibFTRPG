@@ -12,7 +12,7 @@ public class MonsterEvent extends Events{
 	a nice NullPointerException, soo... use monster setter instead, i will
 	resolve that problem later.
 	*/
-	MonsterEvent(Monster monster){
+	public MonsterEvent(Monster monster){
 		this.monster = monster;
 	}
 	

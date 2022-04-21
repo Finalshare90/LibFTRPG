@@ -123,9 +123,9 @@ public class Player{
 				   //put a random number here
 	public int punch(int probability){
 		int damage;	
-		if(probability == 0){
+		if(probability == 0)
 			damage = 0;//missed:D i recommend you to use a 7 numbers random, or the player will miss too much
-		}else{
+		else{
 		damage = strength * probability;
 		}
 		return damage;

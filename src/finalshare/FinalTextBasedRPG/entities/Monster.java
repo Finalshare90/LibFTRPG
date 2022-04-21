@@ -85,7 +85,4 @@ public class Monster {
 	public byte getLevel() {
 		return level;
 	}
-	
-	
-	
-	}
+}

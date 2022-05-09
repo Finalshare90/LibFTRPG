@@ -28,9 +28,9 @@ public abstract class Events {
 		/* 
 		 Also, use a random number 0 and 10
 		 */
-		if(random >= 3){
+		if(random < 3){
 			goodEvent(this.hp, this.xp, this.coins);
-		}else if(random >= 4 && random < 6) {
+		}else if(random > 4 && random != 6) {
 			neutralEvent(this.hp, this.xp, this.coins);
 		}else if(random >= 6) {
 			badEvent(this.hp, this.xp, this.coins);

@@ -1,7 +1,7 @@
 
-package finalshare.FinalTextBasedRPG.entities.samples;
+package finalshare.FinalTextBasedRPG.entities.sample;
 
-
+import java.util.Random;
 
 import finalshare.FinalTextBasedRPG.entities.Npc;
 import finalshare.FinalTextBasedRPG.entities.Player;
@@ -9,6 +9,8 @@ import finalshare.FinalTextBasedRPG.events.Events;
 
 public class genericNpc extends Player implements Npc{
 
+	Random r = new Random();
+	
 	public genericNpc(String nome, int hp) {
 	super(nome, hp);
 	}
@@ -33,8 +35,9 @@ public class genericNpc extends Player implements Npc{
 	game with an npc
 	 */
 	@Override
-	public void eventTrigger(Events event) {	
-		event.eventTrigger(10);	
+	public void eventTrigger(Events event) {
+		int RandomNumber = r.nextInt(10);
+		event.eventTrigger(RandomNumber);	
 	}
 	@Override
 	public boolean isAgressive(boolean isAgressive) {
